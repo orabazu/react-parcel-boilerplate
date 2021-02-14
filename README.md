@@ -1,31 +1,18 @@
+### React TS Rust WASM Parcel Boilerplate
 
-### React Parcel Boilerplate
+React starter with parcel bundler 📦
 
-Dead simple react starter with parcel bundler 📦
+### What's inside?
 
-## Available Scripts
+- React
+- Typescript
+- Rust & WASM
 
-In the project directory, you can run:
+### Bootstrap
 
-### `npm format`
+`yarn start`
 
-Launches prettier to reformat & overwrites files.
+### ⚠️ Cargo.toml type error
 
-### `npm format:check`
-
-Launches prettier to reformat but do not overwrite files. Usefull for CI integrations.
-
-### `npm lint`
-
-Show linter errors based on default eslint configuration.
-
-### `npm dev`
-
-Builds up the app in dist folder using parcel.
-
-## Babel 
-
-### `transform-class-properties`
-
-Enriches the developmnent experience, used for getting rid of unnecessary constructors. Take a look at [tc39](https://github.com/tc39/proposal-class-fields) and [babel](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) for further detail
-
+Due to issue here https://github.com/wasm-tool/parcel-plugin-wasm.rs/issues/26 you'll probably need to run
+`yarn link:Cargo` for once
