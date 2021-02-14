@@ -1,22 +1,13 @@
 import React, { useEffect } from 'react';
-import modulex from '../../rust/Cargo.toml';
-
-// import('pkg').then((module) => {
-//   module.add(2, 2);
-// });
-
-function getWasm() {
-  // const module = await import('myWasm');
-  console.log(modulex.greet());
-}
-//   getWasm()
+import { greet } from '../../rust/Cargo.toml';
+import './style.scss';
 
 const App = ({ name }: { name: string }): JSX.Element => {
   useEffect(() => {
-    getWasm();
+    greet();
   }, []);
   return (
-    <h1>
+    <h1 className="heading">
       Hello
       {name}
     </h1>

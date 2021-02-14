@@ -10,6 +10,10 @@ React starter with parcel bundler 📦
 
 ### Bootstrap
 
+Install dependencies
+`yarn install`
+
+🦀 🕸 Start application 🕸 🦀
 `yarn start`
 
 ### ⚠️ Cargo.toml type error
