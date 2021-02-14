@@ -1,3 +1,10 @@
 {
-  "recommendations": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint", "editorconfig.editorconfig"]
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "rust-lang.rust",
+    "serayuzgur.crates",
+    "dtsvet.vscode-wasm"
+    ]
 }
