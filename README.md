@@ -2,13 +2,16 @@
 
 React starter with parcel bundler 📦
 
-### What's inside?
+#### What's inside?
 
 - React
 - Typescript
 - Rust & WASM
 
-### Bootstrap
+#### Bootstrap
+
+Install Rust
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
 Install dependencies
 `yarn install`
@@ -16,7 +19,7 @@ Install dependencies
 🦀 🕸 Start application 🕸 🦀
 `yarn start`
 
-### ⚠️ Cargo.toml type error
+#### ⚠️ Cargo.toml type error
 
 Due to issue here https://github.com/wasm-tool/parcel-plugin-wasm.rs/issues/26 you'll probably need to run
 `yarn link:Cargo` for once
